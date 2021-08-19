@@ -4,15 +4,26 @@
 
 @import "base/base";
 @import "base/animation";
-@import "base/typography";
+@import "base/_typography";
 @import "base/utilities";
 @import "base/typography";
 
 @import "pages/home";
 
 @import "components/button";
+@import "components/_composition";
+@import "components/-feature-box.scss";
+@import "components/card.scss";
+@import "components/story";
+@import "components/bg-video";
+@import "components/form.scss";
+@import "components/popup";
 
 @import "layout/header";
+@import "layout/_flex";
+@import "layout/footer";
+@import "layout/navigation";
+
 
 
 
